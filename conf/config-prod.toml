@@ -1,0 +1,20 @@
+[ding]
+access_token = "809870859d4d7cb8fdc15571b8a126269096fc2f5544df2986013c18612a7ae8"
+secret = "SEC76f7f5146fa823d1420ca6eacb3e10f50fa6bb8093301bc886315aac61671d42"
+
+[monitor]
+# 忽略执行的任务
+omit_tasks = ["rencailian"]
+interval = 10
+
+[scheduler]
+trigger = 'interval'
+seconds = 10
+start_date = '2023-02-15 00:00:00'
+
+[log]
+level = 'INFO'
+
+[live_notification]
+disable = false
+scheduler = { trigger = 'interval', hours = 24, start_date = '2023-02-15 09:00:00' }

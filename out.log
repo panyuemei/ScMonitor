@@ -1,0 +1,296 @@
+INFO 2023-07-10 15:59:25,606 加载配置文件[prod]：{'ding': {'access_token': '809870859d4d7cb8fdc15571b8a126269096fc2f5544df2986013c18612a7ae8', 'secret': 'SEC76f7f5146fa823d1420ca6eacb3e10f50fa6bb8093301bc886315aac61671d42'}, 'monitor': {'omit_tasks': ['rencailian'], 'interval': 10}, 'scheduler': {'trigger': 'interval', 'seconds': 10, 'start_date': '2023-02-15 00:00:00'}, 'log': {'level': 'INFO'}, 'live_notification': {'disable': False, 'scheduler': {'trigger': 'interval', 'hours': 24, 'start_date': '2023-02-15 09:00:00'}}}
+INFO 2023-07-10 15:59:25,748 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,749 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,750 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,750 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,751 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,752 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,752 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,753 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO 2023-07-10 15:59:25,753 监控存活通知['海峡链区块链浏览器', '海峡链Pass小程序', '夸父', 'TraceDemo', '海峡链节点管理后台', '海峡链管理后台', '海峡链官网']
+INFO 2023-07-10 15:59:26,069 钉钉通知：{"errcode":0,"errmsg":"ok"}
+INFO 2023-07-10 15:59:26,071 Added job "sc_explorer" to job store "default"
+INFO 2023-07-10 15:59:26,071 Added job "sc_pass_mini_program" to job store "default"
+INFO 2023-07-10 15:59:26,071 Added job "kuafu" to job store "default"
+INFO 2023-07-10 15:59:26,071 Added job "trace_demo" to job store "default"
+INFO 2023-07-10 15:59:26,072 Added job "sc_admin_straitchain" to job store "default"
+INFO 2023-07-10 15:59:26,072 Added job "sc_scadmin_straitchain" to job store "default"
+INFO 2023-07-10 15:59:26,072 Added job "sc_straitchain" to job store "default"
+INFO 2023-07-10 15:59:26,072 Added job "监控存活通知" to job store "default"
+INFO 2023-07-10 15:59:26,072 Scheduler started
+INFO 2023-07-10 15:59:30,005 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:30 CST)" (scheduled at 2023-07-10 15:59:30+08:00)
+INFO 2023-07-10 15:59:30,006 开始执行任务：海峡链官网
+INFO 2023-07-10 15:59:30,009 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:30 CST)" (scheduled at 2023-07-10 15:59:30+08:00)
+INFO 2023-07-10 15:59:30,010 开始执行任务：海峡链管理后台
+INFO 2023-07-10 15:59:30,013 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:30 CST)" (scheduled at 2023-07-10 15:59:30+08:00)
+INFO 2023-07-10 15:59:30,013 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 15:59:30,018 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:30 CST)" (scheduled at 2023-07-10 15:59:30+08:00)
+INFO 2023-07-10 15:59:30,018 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 15:59:30,022 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:30 CST)" (scheduled at 2023-07-10 15:59:30+08:00)
+INFO 2023-07-10 15:59:30,023 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 15:59:30,228 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 15:59:30,244 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 15:59:30,272 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 15:59:30,273 任务执行结束：海峡链官网
+INFO 2023-07-10 15:59:30,273 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:40 CST)" executed successfully
+INFO 2023-07-10 15:59:30,313 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 15:59:30,314 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 15:59:30,314 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:40 CST)" executed successfully
+INFO 2023-07-10 15:59:30,396 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 15:59:30,396 任务执行结束：海峡链管理后台
+INFO 2023-07-10 15:59:30,396 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:40 CST)" executed successfully
+INFO 2023-07-10 15:59:30,637 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 15:59:31,080 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 15:59:31,270 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 15:59:31,481 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 15:59:31,726 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 15:59:32,338 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 15:59:32,338 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 15:59:32,338 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:40 CST)" executed successfully
+INFO 2023-07-10 15:59:39,801 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 15:59:39,802 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 15:59:39,802 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:40 CST)" executed successfully
+INFO 2023-07-10 15:59:40,028 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" (scheduled at 2023-07-10 15:59:40+08:00)
+INFO 2023-07-10 15:59:40,029 开始执行任务：海峡链官网
+INFO 2023-07-10 15:59:40,028 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" (scheduled at 2023-07-10 15:59:40+08:00)
+INFO 2023-07-10 15:59:40,032 开始执行任务：海峡链管理后台
+INFO 2023-07-10 15:59:40,032 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" (scheduled at 2023-07-10 15:59:40+08:00)
+INFO 2023-07-10 15:59:40,034 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 15:59:40,035 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" (scheduled at 2023-07-10 15:59:40+08:00)
+INFO 2023-07-10 15:59:40,036 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" (scheduled at 2023-07-10 15:59:40+08:00)
+INFO 2023-07-10 15:59:40,036 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 15:59:40,036 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 15:59:40,242 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 15:59:40,247 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 15:59:40,247 任务执行结束：海峡链官网
+INFO 2023-07-10 15:59:40,247 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" executed successfully
+INFO 2023-07-10 15:59:40,260 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 15:59:40,415 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 15:59:40,416 任务执行结束：海峡链管理后台
+INFO 2023-07-10 15:59:40,416 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" executed successfully
+INFO 2023-07-10 15:59:40,483 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 15:59:40,484 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 15:59:40,484 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" executed successfully
+INFO 2023-07-10 15:59:40,647 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 15:59:40,810 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 15:59:41,004 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 15:59:41,258 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 15:59:41,469 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 15:59:41,677 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 15:59:41,677 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 15:59:41,677 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" executed successfully
+INFO 2023-07-10 15:59:42,894 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 15:59:42,894 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 15:59:42,894 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 15:59:50 CST)" executed successfully
+INFO 2023-07-10 15:59:50,002 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" (scheduled at 2023-07-10 15:59:50+08:00)
+INFO 2023-07-10 15:59:50,002 开始执行任务：海峡链官网
+INFO 2023-07-10 15:59:50,003 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" (scheduled at 2023-07-10 15:59:50+08:00)
+INFO 2023-07-10 15:59:50,007 开始执行任务：海峡链管理后台
+INFO 2023-07-10 15:59:50,003 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" (scheduled at 2023-07-10 15:59:50+08:00)
+INFO 2023-07-10 15:59:50,005 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" (scheduled at 2023-07-10 15:59:50+08:00)
+INFO 2023-07-10 15:59:50,010 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 15:59:50,003 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" (scheduled at 2023-07-10 15:59:50+08:00)
+INFO 2023-07-10 15:59:50,013 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 15:59:50,010 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 15:59:50,200 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 15:59:50,228 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 15:59:50,239 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 15:59:50,239 任务执行结束：海峡链官网
+INFO 2023-07-10 15:59:50,239 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" executed successfully
+INFO 2023-07-10 15:59:50,339 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 15:59:50,340 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 15:59:50,340 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" executed successfully
+INFO 2023-07-10 15:59:50,346 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 15:59:50,347 任务执行结束：海峡链管理后台
+INFO 2023-07-10 15:59:50,347 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" executed successfully
+INFO 2023-07-10 15:59:50,574 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 15:59:50,781 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 15:59:50,879 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 15:59:50,881 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 15:59:50,881 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" executed successfully
+INFO 2023-07-10 15:59:51,040 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 15:59:51,238 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 15:59:51,403 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 15:59:51,557 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 15:59:51,557 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 15:59:51,557 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:00 CST)" executed successfully
+INFO 2023-07-10 16:00:00,002 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" (scheduled at 2023-07-10 16:00:00+08:00)
+INFO 2023-07-10 16:00:00,003 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" (scheduled at 2023-07-10 16:00:00+08:00)
+INFO 2023-07-10 16:00:00,003 开始执行任务：海峡链官网
+INFO 2023-07-10 16:00:00,004 开始执行任务：海峡链管理后台
+INFO 2023-07-10 16:00:00,007 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" (scheduled at 2023-07-10 16:00:00+08:00)
+INFO 2023-07-10 16:00:00,014 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 16:00:00,018 Running job "kuafu (trigger: interval[1:00:00], next run at: 2023-07-10 17:00:00 CST)" (scheduled at 2023-07-10 16:00:00+08:00)
+INFO 2023-07-10 16:00:00,019 开始执行任务：夸父
+INFO 2023-07-10 16:00:00,021 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" (scheduled at 2023-07-10 16:00:00+08:00)
+INFO 2023-07-10 16:00:00,022 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 16:00:00,024 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" (scheduled at 2023-07-10 16:00:00+08:00)
+INFO 2023-07-10 16:00:00,024 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 16:00:00,028 Running job "trace_demo (trigger: interval[1:00:00], next run at: 2023-07-10 17:00:00 CST)" (scheduled at 2023-07-10 16:00:00+08:00)
+INFO 2023-07-10 16:00:00,028 开始执行任务：TraceDemo
+INFO 2023-07-10 16:00:00,194 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 16:00:00,198 【夸父】：接口请求结果断言成功。name=登录, url=http://47.113.102.228/kfclient/login
+INFO 2023-07-10 16:00:00,198 任务执行结束：夸父
+INFO 2023-07-10 16:00:00,198 Job "kuafu (trigger: interval[1:00:00], next run at: 2023-07-10 17:00:00 CST)" executed successfully
+INFO 2023-07-10 16:00:00,203 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 16:00:00,203 任务执行结束：海峡链官网
+INFO 2023-07-10 16:00:00,203 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" executed successfully
+INFO 2023-07-10 16:00:00,221 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 16:00:00,319 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:00,320 任务执行结束：海峡链管理后台
+INFO 2023-07-10 16:00:00,320 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" executed successfully
+INFO 2023-07-10 16:00:00,371 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:00,372 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 16:00:00,372 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" executed successfully
+INFO 2023-07-10 16:00:00,507 【TraceDemo】：接口请求结果断言成功。name=服务存活, url=https://liu.chain-meeting.com/tracedemo/not_exist_api
+INFO 2023-07-10 16:00:00,508 任务执行结束：TraceDemo
+INFO 2023-07-10 16:00:00,508 Job "trace_demo (trigger: interval[1:00:00], next run at: 2023-07-10 17:00:00 CST)" executed successfully
+INFO 2023-07-10 16:00:00,530 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 16:00:00,717 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 16:00:00,924 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 16:00:00,992 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 16:00:00,993 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 16:00:00,993 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" executed successfully
+INFO 2023-07-10 16:00:01,167 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 16:00:01,551 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 16:00:01,921 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 16:00:01,922 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 16:00:01,922 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:10 CST)" executed successfully
+INFO 2023-07-10 16:00:10,018 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" (scheduled at 2023-07-10 16:00:10+08:00)
+INFO 2023-07-10 16:00:10,019 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" (scheduled at 2023-07-10 16:00:10+08:00)
+INFO 2023-07-10 16:00:10,021 开始执行任务：海峡链管理后台
+INFO 2023-07-10 16:00:10,020 开始执行任务：海峡链官网
+INFO 2023-07-10 16:00:10,020 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" (scheduled at 2023-07-10 16:00:10+08:00)
+INFO 2023-07-10 16:00:10,027 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 16:00:10,027 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" (scheduled at 2023-07-10 16:00:10+08:00)
+INFO 2023-07-10 16:00:10,026 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" (scheduled at 2023-07-10 16:00:10+08:00)
+INFO 2023-07-10 16:00:10,029 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 16:00:10,030 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 16:00:10,232 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 16:00:10,244 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 16:00:10,296 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 16:00:10,297 任务执行结束：海峡链官网
+INFO 2023-07-10 16:00:10,297 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" executed successfully
+INFO 2023-07-10 16:00:10,321 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:10,321 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 16:00:10,322 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" executed successfully
+INFO 2023-07-10 16:00:10,374 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:10,375 任务执行结束：海峡链管理后台
+INFO 2023-07-10 16:00:10,375 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" executed successfully
+INFO 2023-07-10 16:00:10,609 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 16:00:10,783 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 16:00:11,012 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 16:00:11,205 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 16:00:11,205 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 16:00:11,205 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" executed successfully
+INFO 2023-07-10 16:00:11,252 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 16:00:11,417 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 16:00:11,599 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 16:00:11,599 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 16:00:11,599 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:20 CST)" executed successfully
+INFO 2023-07-10 16:00:20,002 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" (scheduled at 2023-07-10 16:00:20+08:00)
+INFO 2023-07-10 16:00:20,002 开始执行任务：海峡链官网
+INFO 2023-07-10 16:00:20,005 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" (scheduled at 2023-07-10 16:00:20+08:00)
+INFO 2023-07-10 16:00:20,005 开始执行任务：海峡链管理后台
+INFO 2023-07-10 16:00:20,008 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" (scheduled at 2023-07-10 16:00:20+08:00)
+INFO 2023-07-10 16:00:20,008 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" (scheduled at 2023-07-10 16:00:20+08:00)
+INFO 2023-07-10 16:00:20,008 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 16:00:20,009 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 16:00:20,009 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" (scheduled at 2023-07-10 16:00:20+08:00)
+INFO 2023-07-10 16:00:20,014 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 16:00:20,188 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 16:00:20,196 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 16:00:20,196 任务执行结束：海峡链官网
+INFO 2023-07-10 16:00:20,196 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" executed successfully
+INFO 2023-07-10 16:00:20,237 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 16:00:20,427 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:20,428 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 16:00:20,428 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" executed successfully
+INFO 2023-07-10 16:00:20,441 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:20,442 任务执行结束：海峡链管理后台
+INFO 2023-07-10 16:00:20,442 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" executed successfully
+INFO 2023-07-10 16:00:20,479 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 16:00:20,668 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 16:00:20,891 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 16:00:20,924 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 16:00:20,924 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 16:00:20,924 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" executed successfully
+INFO 2023-07-10 16:00:21,262 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 16:00:21,412 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 16:00:21,591 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 16:00:21,591 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 16:00:21,591 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:30 CST)" executed successfully
+INFO 2023-07-10 16:00:30,003 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" (scheduled at 2023-07-10 16:00:30+08:00)
+INFO 2023-07-10 16:00:30,003 开始执行任务：海峡链官网
+INFO 2023-07-10 16:00:30,007 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" (scheduled at 2023-07-10 16:00:30+08:00)
+INFO 2023-07-10 16:00:30,008 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" (scheduled at 2023-07-10 16:00:30+08:00)
+INFO 2023-07-10 16:00:30,008 开始执行任务：海峡链管理后台
+INFO 2023-07-10 16:00:30,008 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" (scheduled at 2023-07-10 16:00:30+08:00)
+INFO 2023-07-10 16:00:30,011 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 16:00:30,009 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" (scheduled at 2023-07-10 16:00:30+08:00)
+INFO 2023-07-10 16:00:30,008 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 16:00:30,014 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 16:00:30,227 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 16:00:30,232 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 16:00:30,242 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 16:00:30,242 任务执行结束：海峡链官网
+INFO 2023-07-10 16:00:30,242 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" executed successfully
+INFO 2023-07-10 16:00:30,293 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:30,293 任务执行结束：海峡链管理后台
+INFO 2023-07-10 16:00:30,293 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" executed successfully
+INFO 2023-07-10 16:00:30,341 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:30,342 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 16:00:30,342 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" executed successfully
+INFO 2023-07-10 16:00:30,657 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 16:00:30,938 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 16:00:31,113 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 16:00:31,347 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 16:00:31,416 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 16:00:31,416 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 16:00:31,416 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" executed successfully
+INFO 2023-07-10 16:00:31,552 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 16:00:31,792 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 16:00:31,792 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 16:00:31,792 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:40 CST)" executed successfully
+INFO 2023-07-10 16:00:40,002 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" (scheduled at 2023-07-10 16:00:40+08:00)
+INFO 2023-07-10 16:00:40,003 开始执行任务：海峡链官网
+INFO 2023-07-10 16:00:40,005 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" (scheduled at 2023-07-10 16:00:40+08:00)
+INFO 2023-07-10 16:00:40,006 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" (scheduled at 2023-07-10 16:00:40+08:00)
+INFO 2023-07-10 16:00:40,007 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 16:00:40,006 开始执行任务：海峡链管理后台
+INFO 2023-07-10 16:00:40,006 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" (scheduled at 2023-07-10 16:00:40+08:00)
+INFO 2023-07-10 16:00:40,006 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" (scheduled at 2023-07-10 16:00:40+08:00)
+INFO 2023-07-10 16:00:40,012 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 16:00:40,011 开始执行任务：海峡链Pass小程序
+INFO 2023-07-10 16:00:40,164 【海峡链Pass小程序】：接口请求结果断言成功。name=藏品列表, url=https://passn.shang-chain.com/webclient/collectionItem/page
+INFO 2023-07-10 16:00:40,259 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近区块, url=https://explorer.straitchain.com/strait/home/blockFront10
+INFO 2023-07-10 16:00:40,264 【海峡链官网】：接口请求结果断言成功。name=开发者服务, url=https://www.straitchain.com/webclient/app/market/page
+INFO 2023-07-10 16:00:40,265 任务执行结束：海峡链官网
+INFO 2023-07-10 16:00:40,265 Job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" executed successfully
+INFO 2023-07-10 16:00:40,306 【海峡链节点管理后台】：接口请求结果断言成功。name=登录, url=https://admin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:40,306 任务执行结束：海峡链节点管理后台
+INFO 2023-07-10 16:00:40,306 Job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" executed successfully
+INFO 2023-07-10 16:00:40,338 【海峡链管理后台】：接口请求结果断言成功。name=登录, url=https://scadmin.straitchain.com/webadmin/login
+INFO 2023-07-10 16:00:40,339 任务执行结束：海峡链管理后台
+INFO 2023-07-10 16:00:40,340 Job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" executed successfully
+INFO 2023-07-10 16:00:40,649 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放共识链最近交易, url=https://explorer.straitchain.com/strait/home/transFront10
+INFO 2023-07-10 16:00:40,844 【海峡链区块链浏览器】：接口请求结果断言成功。name=存证总数统计折线图, url=https://explorer.straitchain.com/strait/home/dailyCzStatistics
+INFO 2023-07-10 16:00:41,063 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近区块, url=https://api.league.search.straitchain.com:9009/subChain/bs/block/list
+INFO 2023-07-10 16:00:41,082 【海峡链Pass小程序】：接口请求结果断言成功。name=手机号登录, url=https://passn.shang-chain.com/webclient/login
+INFO 2023-07-10 16:00:41,083 任务执行结束：海峡链Pass小程序
+INFO 2023-07-10 16:00:41,083 Job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" executed successfully
+INFO 2023-07-10 16:00:41,284 【海峡链区块链浏览器】：接口请求结果断言成功。name=开放许可链最近交易, url=https://api.league.search.straitchain.com:9009/subChain/bs/trans/list
+INFO 2023-07-10 16:00:41,517 【海峡链区块链浏览器】：接口请求结果断言成功。name=统计折线图, url=https://explorer.straitchain.com/strait/home/dailyStatistics
+INFO 2023-07-10 16:00:41,705 【海峡链区块链浏览器】：接口请求结果断言成功。name=汇总统计, url=https://explorer.straitchain.com/strait/home/totalInfo
+INFO 2023-07-10 16:00:41,705 任务执行结束：海峡链区块链浏览器
+INFO 2023-07-10 16:00:41,705 Job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:00:50 CST)" executed successfully
+INFO 2023-07-10 16:00:50,002 Running job "sc_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:01:00 CST)" (scheduled at 2023-07-10 16:00:50+08:00)
+INFO 2023-07-10 16:00:50,003 开始执行任务：海峡链官网
+INFO 2023-07-10 16:00:50,003 Running job "sc_scadmin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:01:00 CST)" (scheduled at 2023-07-10 16:00:50+08:00)
+INFO 2023-07-10 16:00:50,003 Running job "sc_admin_straitchain (trigger: interval[0:00:10], next run at: 2023-07-10 16:01:00 CST)" (scheduled at 2023-07-10 16:00:50+08:00)
+INFO 2023-07-10 16:00:50,004 Running job "sc_explorer (trigger: interval[0:00:10], next run at: 2023-07-10 16:01:00 CST)" (scheduled at 2023-07-10 16:00:50+08:00)
+INFO 2023-07-10 16:00:50,005 开始执行任务：海峡链管理后台
+INFO 2023-07-10 16:00:50,007 Running job "sc_pass_mini_program (trigger: interval[0:00:10], next run at: 2023-07-10 16:01:00 CST)" (scheduled at 2023-07-10 16:00:50+08:00)
+INFO 2023-07-10 16:00:50,007 开始执行任务：海峡链节点管理后台
+INFO 2023-07-10 16:00:50,007 开始执行任务：海峡链区块链浏览器
+INFO 2023-07-10 16:00:50,010 开始执行任务：海峡链Pass小程序
